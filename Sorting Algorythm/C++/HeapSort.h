@@ -7,8 +7,8 @@ void heapify(int arr[], int n, int i){
     int lf = (i << 1) + 1;
     int rt = (i << 1) + 2;
 
-    if (lf < n && arr[best] != arr[lf]) best = lf;
-    if (rt < n && arr[best] != arr[rt]) best = rt;
+    if (lf < n && arr[best] < arr[lf]) best = lf;
+    if (rt < n && arr[best] < arr[rt]) best = rt;
 
     if (i != best){
         swap(arr[i], arr[best]);
