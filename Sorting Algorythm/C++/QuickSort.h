@@ -1,13 +1,13 @@
 #pragma once
 #include <bits/stdc++.h>
-using namesapce std;
+using namespace std;
 
 int partition(int arr[], int L, int R){
-    int mid = arr[R];
+    int pivot = arr[R];
     int i = L;
 
     for (int j = L; j < R; j ++ ){
-        if (arr[j] < arr[i]){
+        if (arr[j] < pivot){
             swap(arr[j], arr[i]);
             i ++;
         }
