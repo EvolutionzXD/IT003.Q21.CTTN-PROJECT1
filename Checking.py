@@ -37,7 +37,7 @@ def main():
         
         t_numpy = numpy_sort_time(data)
         
-        print(f"TEST {test_id}|Numpy: {t_numpy:.2f}ms")
+        print(f"TEST {test_id}|Numpy: {t_numpy:.0f}ms")
 
 if __name__ == "__main__":
     main()
