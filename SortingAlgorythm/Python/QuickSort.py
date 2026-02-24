@@ -1,7 +1,6 @@
 import random
 
 def partition(arr, L, R):
-    # Random pivot to avoid worst case O(n^2) on sorted arrays
     pivot_idx = random.randint(L, R)
     arr[pivot_idx], arr[R] = arr[R], arr[pivot_idx]
     
