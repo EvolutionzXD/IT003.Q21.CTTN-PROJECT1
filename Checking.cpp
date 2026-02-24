@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
-#include "SortingAlgorythm/MergeSort.h"
-#include "SortingAlgorythm/QuickSort.h"
-#include "SortingAlgorythm/HeapSort.h"
+#include "SortingAlgorythm/C++/MergeSort.h"
+#include "SortingAlgorythm/C++/QuickSort.h"
+#include "SortingAlgorythm/C++/HeapSort.h"
 
 using namespace std;
 
